@@ -12,7 +12,7 @@ header {
 }
 
 h1 {
-    color: #2e7d32;
+    color: #7d2e4f;
 }
 
 #receitas {
@@ -40,14 +40,14 @@ button {
     margin-top: 10px;
     padding: 8px 12px;
     border: none;
-    background-color: #2e7d32;
+    background-color: #332e7d;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #1b5e20;
+    background-color: #5e1b2f;
 }
 
 .detalhes {
