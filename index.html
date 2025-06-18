@@ -1,25 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Receitas Saudáveis e Fáceis</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receitas Saudáveis de Chefs Renomados</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <header>
-        <h1>Receitas Saudáveis e Fáceis</h1>
-        <p>Descubra pratos incríveis de chefs renomados para uma alimentação leve e saborosa.</p>
+        <h1>Receitas Saudáveis de Chefs Renomados</h1>
     </header>
-
-    <main id="receitas">
-        <!-- Receitas inseridas via JavaScript -->
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Receitas Saudáveis. Desenvolvido com ♥ por amantes da boa comida.</p>
-    </footer>
-
+    <section id="receitas">
+        <div class="receita">
+            <h2>Salada de Quinoa com Legumes</h2>
+            <img src="quinoa-legumes.jpg" alt="Salada de Quinoa com Legumes" />
+            <p>Uma deliciosa salada de quinoa com legumes frescos, ideal para uma alimentação saudável.</p>
+            <button onclick="mostrarDetalhes('salada')">Mais detalhes</button>
+            <div id="salada" class="detalhes" style="display:none;">
+                <p>Chef: Ana Silva</p>
+                <p>Tempo de preparo: 20 minutos</p>
+            </div>
+        </div>
+        <div class="receita">
+            <h2>Smoothie Verde Energizante</h2>
+            <img src="smoothie-verde.jpg" alt="Smoothie Verde Energizante" />
+            <p>Um smoothie cheio de nutrientes para começar bem o dia.</p>
+            <button onclick="mostrarDetalhes('smoothie')">Mais detalhes</button>
+            <div id="smoothie" class="detalhes" style="display:none;">
+                <p>Chef: Carlos Pereira</p>
+                <p>Tempo de preparo: 10 minutos</p>
+            </div>
+        </div>
+        <!-- Adicione mais receitas aqui -->
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
